@@ -8,13 +8,17 @@
  */
 int main(void)
 {
-
 	/*Put the alphabet in the array tabl_alpha*/
-	char tabl_alpha[27] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	/*char tabl_alpha[27] = "abcdefghijklmnopqrstuvwxyz";
+	 *int i;
+	 *for (i = 0 ; i < 27 ; i++)
+	 *	putchar(tabl_alpha[i]);
+	 */
+	/*easiest way tu print the alphabet*/
+	char c;
+	for (c = 'a'; c <= 'z' ; c++)
+		putchar(c);
 
-	for (i = 0 ; i < 27 ; i++)
-		putchar(tabl_alpha[i]);
 	/*Print a new line*/
 	putchar('\n');
 
