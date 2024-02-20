@@ -4,3 +4,4 @@ Task2 'Print the alphabet followed by a new line by only using twice the functio
 Task3 'Print the alphabet in lower and after in upper case'
 Task4 'Print the alphabet in lower case except 'q' qnd 'e''
 Task5 'Print numbers from 0 to 9'
+Task6 'Print numbers from 0 to 9 by using twice the putchar fonction with no declaration of type char'
