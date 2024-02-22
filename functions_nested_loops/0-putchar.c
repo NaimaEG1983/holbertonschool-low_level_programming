@@ -15,15 +15,6 @@
 
 int main(void)
 {
-
-	/*char tableC[9];
-	*
-	*tableC = "_putchar";
-	*int i;
-
-	*for (i = 0 ; i < 8 ; i++)
-	*	_putchar(tableC[i]);
-	*/
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -32,7 +23,6 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	/*Print a new line*/
 	_putchar('\n');
 
 	return (0);
