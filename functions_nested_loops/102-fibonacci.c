@@ -7,21 +7,21 @@
 int main(void)
 {
 	int i;
-	unsigned int n1, n2, sum;
+	unsigned long n1, n2, sum;
 
 	n1 = 1;
 	n2 = 2;
 	i = 2;
 
-	printf("%d, %d, ", n1, n2);
+	printf("%lu, %lu, ", n1, n2);
 	do	{
 		sum = n1 + n2;
-		printf("%u, ", sum);
+		printf("%lu, ", sum);
 		n1 = n2;
 		n2 = sum;
 		i++;
 	} while (i < 50);
 	sum = n1 + n2;
-	printf("%u\n", sum);
+	printf("%lu\n", sum);
 	return (0);
 }
