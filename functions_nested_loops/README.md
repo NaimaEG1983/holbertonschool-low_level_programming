@@ -11,3 +11,4 @@ Task9 - print the 9 times table
 Task10 - add 2 integers
 Task11 - print all integers from n until 98
 Task12 - print the n times table (n*n)
+Task13 - print the sum of all the multiples of 3 or 5 below 1024 (excluded)
