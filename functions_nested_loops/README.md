@@ -10,3 +10,4 @@ Task8 - print hour from 00:00 to 23:59
 Task9 - print the 9 times table
 Task10 - add 2 integers
 Task11 - print all integers from n until 98
+Task12 - print the n times table (n*n)
