@@ -8,3 +8,4 @@ Task6 - print the absolute value of a signed integer
 Task7 - print the last digit of a number
 Task8 - print hour from 00:00 to 23:59
 Task9 - print the 9 times table
+Task10 - add 2 integers
