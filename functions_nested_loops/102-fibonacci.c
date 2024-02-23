@@ -20,7 +20,7 @@ int main(void)
 		printf("%lu, ", sum);
 		n1 = n2;
 		n2 = sum;
-	} while (i < 50);
+	} while (i < 49);
 
 	printf("%lu\n",n1 + n2);
 	return (0);
