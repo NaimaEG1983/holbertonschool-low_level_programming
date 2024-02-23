@@ -16,12 +16,12 @@ int main(void)
 	printf("%lu, %lu, ", n1, n2);
 	do	{
 		sum = n1 + n2;
+		i++;
 		printf("%lu, ", sum);
 		n1 = n2;
 		n2 = sum;
-		i++;
 	} while (i < 50);
-	sum = n1 + n2;
-	printf("%lu\n", sum);
+
+	printf("%lu\n",n1 + n2);
 	return (0);
 }
