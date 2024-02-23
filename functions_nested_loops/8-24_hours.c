@@ -1,5 +1,4 @@
 #include"main.h"
-#include<stdio.h>
 /**
  * jack_bauer - print hour from 00:00 to 23:59
  */
@@ -9,5 +8,17 @@ void jack_bauer(void)
 
 	for (hh = 0; hh < 24 ; hh++)
 		for (mn = 0; mn < 60 ; mn++)
-			printf("%02d:%02d\n", hh, mn);
+		{
+			_putchar('0' + hh / 10);
+			_putchar('0' + hh % 10);
+			_putchar(':');
+			_putchar('0' + mn / 10);
+			_putchar('0' + mn % 10);
+			_putchar('\n');
+			/*
+			* fflush(stdout);
+			* printf("helloooo %02d:%02d\n", hh , mn);
+			*/
+		}
+
 }
