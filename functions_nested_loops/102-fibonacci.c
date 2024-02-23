@@ -22,6 +22,6 @@ int main(void)
 		n2 = sum;
 	} while (i < 49);
 
-	printf("%lu\n",n1 + n2);
+	printf("%lu\n", n1 + n2);
 	return (0);
 }
