@@ -5,3 +5,4 @@ Task3 - check if a caracter is in lowercase
 Task4 - check if a caracter is an alpha
 Task5 - print the sign of a number
 Task6 - print the absolute value of a signed integer
+Task7 - print the last digit of a number
