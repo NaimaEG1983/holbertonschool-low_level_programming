@@ -5,25 +5,32 @@
  */
 void print_times_table(int n)
 {
-	int i, j, m, md, mu;
-
-	for (i = 0; i <= n; i++)
+	if (n <= 15)
 	{
-		_putchar('0');
-		for (j = 1; j <= n; j++)
-		{
-			m = i * j;
-			md = m / 10;
-			mu = m % 10;
-			_putchar(',');
-			_putchar(' ');
-			if (md)
-				_putchar('0' + md);
-			else
-				_putchar(' ');
-			_putchar('0' + mu);
+		int i, j, m, md, mu, mc;
 
+		for (i = 0; i <= n; i++)
+		{
+			_putchar('0');
+			for (j = 1; j <= n; j++)
+			{
+				m = i * j;
+				mc = m / 100;
+				md = (m % 100) / 10;
+				mu = m % 10;
+				_putchar(',');
+				_putchar(' ');
+				if (mc)
+					_putchar('0' + mc);
+				else
+					_putchar(' ');
+				if (md || mc)
+					_putchar('0' + md);
+				else
+					_putchar(' ');
+				_putchar('0' + mu);
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
