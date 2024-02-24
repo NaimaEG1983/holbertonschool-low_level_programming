@@ -11,7 +11,6 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	sumP  = n2;
-	
 	do	{
 		sum = n1 + n2;
 		n1 = n2;
