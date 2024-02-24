@@ -14,3 +14,4 @@ Task12 - print the n times table (n*n)
 Task13 - print the sum of all the multiples of 3 or 5 below 1024 (excluded)
 Task14 - print the first 50 Fibonacci numbers
 Task15 - print the sum of even-values of Fibonacci numbers which are under 4000000
+Task16 - print the first 98 Fibonacci numbers
