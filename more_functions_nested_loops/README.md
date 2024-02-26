@@ -1,0 +1,1 @@
+Task0 - Check if a character is uppercase
