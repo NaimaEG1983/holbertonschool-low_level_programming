@@ -7,3 +7,4 @@ Task5 - Print 10 times the numbers, from 0 to 14
 Task6 - Draw a straight line with n underscores
 Task7 - Draw a diagonal line
 Task8 - Draw a square of # caracters
+Task9 - Print numbers from 1 to 100 except for multiples of 3 and 5 print Fizz and Buzz
