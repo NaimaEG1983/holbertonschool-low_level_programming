@@ -3,3 +3,4 @@ Task1 - swap 2 pointers
 Task3 - print a string
 Task4 - print a string in reverse
 Task5 - reverse a string
+Task6 - print a string even caracters
