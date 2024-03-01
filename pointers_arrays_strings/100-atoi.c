@@ -48,7 +48,9 @@ int _atoi(char *s)
 		res += puissance10(fin - i) * ((s[i] - '0'));
 	if (moins % 2)
 		res *= (-1);
-
-	return (res);
+	if (deb >= 0)
+		return (res);
+	else
+		return (0);
 }
 
