@@ -1,6 +1,4 @@
 #include"main.h"
-#include<stdio.h>
-#include"_putchar.c"
 /**
  * puissance10 - returns the result of 10 power n
  * @n: exposant of 10
